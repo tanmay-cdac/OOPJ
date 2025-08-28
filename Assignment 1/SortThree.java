@@ -1,0 +1,13 @@
+import java.util.*;
+
+class SortThree {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int[] arr = new int[3];
+        System.out.print("Enter three numbers: ");
+        for (int i = 0; i < 3; i++) arr[i] = sc.nextInt();
+
+        Arrays.sort(arr);
+        System.out.println("Ascending order: " + arr[0] + ", " + arr[1] + ", " + arr[2]);
+    }
+}
